@@ -1,0 +1,91 @@
+[
+    {
+        "Name": "Samuel Houston",
+        "Party": "Democratic",
+        "YearsServed": "Feb. 21, 1846 Mar. 3,1859"
+    },
+
+    {
+        "Name": "John Hemphill",
+        "Party": "Democratic",
+        "YearsServed": "Mar. 4, 1859 Jul. 11, 1861"
+    },
+
+    {
+        "Name": "Morgan C. Hamilton",
+        "Party": "Republican",
+        "YearsServed": "Mar. 30,1870 Mar. 3,1877"
+    },
+
+    {
+        "Name": "Richard Coke",
+        "Party": "Democratic",
+        "YearsServed": "Mar. 4,1877 Mar. 3,1895"
+    },
+
+    {
+        "Name": "Horace Chilton",
+        "Party": "Democratic",
+        "YearsServed": "Mar. 4,1895 Mar. 3, 1901"
+    },
+
+    {
+        "Name": "Joseph W. Bailey",
+        "Party": "Democratic",
+        "YearsServed": "Mar. 4,1901 Jan. 3,1913"
+    },
+
+    {
+        "Name": "Rienzi M. Johnston",
+        "Party": "Democratic",
+        "YearsServed": "Jan. 4,1913 Jan. 29,1913"
+    },
+
+    {
+        "Name": "Morris Sheppard",
+        "Party": "Democratic",
+        "YearsServed": "Jan. 29, 1913 Apr. 9,1941"
+    },
+
+    {
+        "Name": "Andrew Jackson Houston",
+        "Party": "Democratic",
+        "YearsServed": "Apr. 21,1941 Jun. 26,1941"
+    },
+
+    {
+        "Name": "W. Lee -Pappy- O'Daniel",
+        "Party": "Democratic",
+        "YearsServed": "Aug. 4,1941 Jan. 3, 1949"
+    },
+
+    {
+        "Name": "Lyndon B. Johnson",
+        "Party": "Democratic",
+        "YearsServed": "Jan. 3,1949 Jan. 3, 1961"
+    },
+
+    {
+        "Name": "William A. Blakley",
+        "Party": "Democratic",
+        "YearsServed": "Jan. 3,1961 Jun. 14,1961"
+    },
+
+    {
+        "Name": "John G. Tower",
+        "Party": "Republican",
+        "YearsServed": "Jun. 15,1961 Jan. 3,1985"
+    },
+
+    {
+        "Name": "W. Philip Gramm",
+        "Party": "Republican",
+        "YearsServed": "Jan. 3,1985 Nov. 30,2002"
+    },
+
+    {
+        "Name": "John Cornyn",
+        "Party": "Republican",
+        "YearsServed": "Dec. 2, 2002 Present"
+    }
+]

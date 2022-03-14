@@ -152,7 +152,7 @@ const classTwo = [
     },
 
     {
-        "Name": "W. Lee -Pappy- O'Daniel",
+        "Name": "W. Lee [Pappy] O'Daniel",
         "Party": "Democratic",
         "YearsServed": "Aug. 4,1941 Jan. 3, 1949"
     },
