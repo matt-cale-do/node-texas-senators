@@ -22,21 +22,21 @@
 
 
 Class 2
-29th-35th	Samuel Houston (D, AM)	Feb. 21, 1846	Mar. 3, 1859	
-36th-37th	John Hemphill (D)	Mar. 4, 1859	Jul. 11, 1861	Expelled
-41st-44th	Morgan C. Hamilton (R, LR, R)	Mar. 30, 18703	Mar. 3, 1877	
-45th-53rd	Richard Coke (D)	Mar. 4, 1877	Mar. 3, 1895	
-54th-56th	Horace Chilton (D)	Mar. 4, 1895	Mar. 3, 1901	
-57th-62nd	Joseph W. Bailey (D)	Mar. 4, 1901	Jan. 3, 1913	Resigned
-62nd	Rienzi M. Johnston (D)	Jan. 4, 1913	Jan. 29, 1913	Appointed
-62nd-77th	Morris Sheppard (D)	Jan. 29, 19134	Apr. 9, 1941	Died
-77th	Andrew Jackson Houston (D)	Apr. 21, 1941	Jun. 26, 1941	Appointed; died
-77th-80th	W. Lee (Pappy) O'Daniel (D)	Aug. 4, 1941	Jan. 3, 1949	
-81st-86th	Lyndon B. Johnson (D)	Jan. 3, 1949	Jan. 3, 19615	Resigned
-87th	William A. Blakley (D)	Jan. 3, 1961	Jun. 14, 1961	Appointed
-87th-98th	John G. Tower (R)	Jun. 15, 1961	Jan. 3, 1985	
-99th-107th	W. Philip Gramm (R)	Jan. 3, 1985	Nov. 30, 2002	Resigned
-107th-	John Cornyn (R)	Dec. 2, 20026	Present	
+Samuel Houston (D, AM)	Feb. 21, 1846	Mar. 3, 1859	
+John Hemphill (D)	Mar. 4, 1859	Jul. 11, 1861	Expelled
+Morgan C. Hamilton (R, LR, R)	Mar. 30, 18703	Mar. 3, 1877	
+Richard Coke (D)	Mar. 4, 1877	Mar. 3, 1895	
+Horace Chilton (D)	Mar. 4, 1895	Mar. 3, 1901	
+Joseph W. Bailey (D)	Mar. 4, 1901	Jan. 3, 1913	Resigned
+Rienzi M. Johnston (D)	Jan. 4, 1913	Jan. 29, 1913	Appointed
+tMorris Sheppard (D)	Jan. 29, 19134	Apr. 9, 1941	Died
+Andrew Jackson Houston (D)	Apr. 21, 1941	Jun. 26, 1941	Appointed; died
+W. Lee (Pappy) O'Daniel (D)	Aug. 4, 1941	Jan. 3, 1949	
+Lyndon B. Johnson (D)	Jan. 3, 1949	Jan. 3, 19615	Resigned
+William A. Blakley (D)	Jan. 3, 1961	Jun. 14, 1961	Appointed
+John G. Tower (R)	Jun. 15, 1961	Jan. 3, 1985	
+W. Philip Gramm (R)	Jan. 3, 1985	Nov. 30, 2002	Resigned
+John Cornyn (R)	Dec. 2, 20026	Present	
 
 
 Thomas J. Rusk (D)	  Feb. 21, 1846	Jul. 29, 1857
@@ -58,3 +58,20 @@ Lloyd M. Bentsen Jr. (D)	Jan. 3, 1971	Jan. 20, 1993
 Robert C. Krueger (D)	Jan. 21, 1993	Jun. 14, 1993
 Kay Bailey Hutchison (R)	Jun. 14, 1993	Jan. 3, 2013
 Rafael Edward (Ted) Cruz (R)	Jan. 3, 2013	Present
+
+
+{"Samuel Houston", (D, AM) "Feb. 21, 1846	Mar. 3, 1859 "},
+{"John Hemphill", (D) "Mar. 4, 1859 Jul. 11, 1861 "},
+{"Morgan C. Hamilton", (R, LR, R) "Mar. 30, 18703 Mar. 3, 1877 "},
+{"Richard Coke", (D) "Mar. 4, 1877 Mar. 3, 1895 "},
+{"Horace Chilton", (D) "Mar. 4, 1895 Mar. 3, 1901 "},
+{"Joseph W. Bailey", (D) "Mar. 4, 1901 Jan. 3, 1913 "},
+{"Rienzi M. Johnston", (D) "Jan. 4, 1913 Jan. 29, 1913 "},
+{"tMorris Sheppard", (D) "Jan. 29, 19134 Apr. 9, 1941 "},
+{"Andrew Jackson Houston", (D) "Apr. 21, 1941 Jun. 26, 1941 "},
+{"W. Lee (Pappy) "O'Daniel", (D) "Aug. 4, 1941 Jan. 3, 1949 "},
+{"Lyndon B. Johnson", (D) "Jan. 3, 1949 Jan. 3, 19615 "},
+{"William A. Blakley", (D) "Jan. 3, 1961 Jun. 14, 1961 "},
+{"John G. Tower", (R) "Jun. 15, 1961 Jan. 3, 1985 "},
+{"W. Philip Gramm", (R) "Jan. 3, 1985 Nov. 30, 2002 "},
+{"John Cornyn", (R) "Dec. 2, 20026	Present	"}

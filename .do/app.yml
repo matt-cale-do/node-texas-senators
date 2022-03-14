@@ -1,0 +1,8 @@
+name: node-texas-senators
+services:
+- name: web
+  build_command: npm i
+  run_command: node main.js
+  github:
+    repo: matt-cale-do/node-texas-senators
+    branch: main

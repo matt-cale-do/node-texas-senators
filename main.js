@@ -1,104 +1,6 @@
-'use strict';
+const Hapi = require('@hapi/hapi')
 
-const classOne = [
-    {
-        "Name": "Thomas J. Rusk",
-        "Party": "(D)",
-        "YearsServed": "Feb. 21, 1846 - Jul. 29, 1857"
-    },
-    {
-        "Name": "J. Pinckney Henderson",
-        "Party": "(D)",
-        "YearsServed": "Nov. 9, 1857 - Jun. 4, 1858"
-    },
-    {
-        "Name": "Matthias Ward",
-        "Party": "(D)",
-        "YearsServed": "Sept. 27, 1858 - Dec. 5, 1859"
-    },
-    {
-        "Name": "Louis T. Wigfall",
-        "Party": "(D)",
-        "YearsServed": "Dec. 5, 1859 - Mar. 23, 1861"
-    },
-    {
-        "Name": "James W. Flanagan",
-        "Party": "(R)",
-        "YearsServed": "Mar. 30, 1870 - Mar. 3, 1875"
-    },
-    {
-        "Name": "Samuel B. Maxey",
-        "Party": "(D)",
-        "YearsServed": "Mar. 4, 1875 - Mar. 3, 1887"
-    },
-    {
-        "Name": "John H. Reagan",
-        "Party": "(D)",
-        "YearsServed": "Mar. 4, 1887 - Jun. 10, 1891"
-    },
-    {
-        "Name": "Horace Chilton",
-        "Party": "(D)",
-        "YearsServed": "Jun. 10, 1891 - Mar. 22, 1892"
-    },
-    {
-        "Name": "Roger Q. Mills",
-        "Party": "(D)",
-        "YearsServed": "Mar. 23, 1892 - Mar. 3, 1899"
-    },
-    {
-        "Name": "Charles A. Culberson",
-        "Party": "(D)",
-        "YearsServed": "Mar. 4, 1899 - Mar. 3, 1923"
-    },
-    {
-        "Name": "Earle B. Mayfield",
-        "Party": "(D)",
-        "YearsServed": "Mar. 4, 1923 - Mar. 3, 1929"
-    },
-    {
-        "Name": "Thomas T. Connally",
-        "Party": "(D)",
-        "YearsServed": "Mar. 4, 1929 - Jan. 3, 1953"
-    },
-    {
-        "Name": "M. Price Daniel",
-        "Party": "(D)",
-        "YearsServed": "Jan. 3, 1953 - Jan. 14, 1957"
-    },
-    {
-        "Name": "William A. Blakley",
-        "Party": "(D)",
-        "YearsServed": "Jan. 15, 1957 - Apr. 28, 1957"
-    },
-    {
-        "Name": "Ralph W. Yarborough",
-        "Party": "(D)",
-        "YearsServed": "Apr. 29, 1957 - Jan. 3, 1971"
-    },
-    {
-        "Name": "Lloyd M. Bentsen Jr.",
-        "Party": "(D)",
-        "YearsServed": "Jan. 3, 1971 - Jan. 20, 1993"
-    },
-    {
-        "Name": "Robert C. Krueger",
-        "Party": "(D)",
-        "YearsServed": "Jan. 21, 1993 - Jun. 14, 1993"
-    },
-    {
-        "Name": "Kay Bailey Hutchison",
-        "Party": "(R)",
-        "YearsServed": "Jun. 14, 1993 - Jan. 3, 2013"
-    },
-    {
-        "Name": "Rafael Edward [Ted] Cruz",
-        "Party": "(R)",
-        "YearsServed": "Jan. 3, 2013 - Present"
-    }
-];
-
-const Hapi = require('@hapi/hapi');
+const DB = require("./db.js")
 
 const init = async () => {
 
@@ -111,17 +13,19 @@ const init = async () => {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return classOne
+            const ip = request.info.remoteAddress
+            console.log(`Server Time: ${new Date()} - Requested: / - From: ${ip}`)
+            return {classOne: DB.classOne, classTwo: DB.classTwo}
         }
-    });
+    })
 
     await server.start();
-    console.log('Server running on %s', server.info.uri);
+    console.log('Server running on %s', server.info.uri)
 };
 
 process.on('unhandledRejection', (err) => {
-    console.log(err);
-    process.exit(1);
+    console.log(err)
+    process.exit(1)
 });
 
-init();
+init()
