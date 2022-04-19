@@ -1,6 +1,8 @@
 const Hapi = require('@hapi/hapi')
 const DB = require('./db.js')
 
+require('dotenv').config()
+
 process.env.PHRASE = "Hello Fergie"
 let PHRASE = process.env.PHRASE || 'Hello World'
 
@@ -61,6 +63,15 @@ const init = async () => {
         handler: (request, h) => {
             logReq(request)
             return process.env.REPHRASE
+        }
+    })
+
+    server.route({
+        method: 'GET',
+        path: '/finale',
+        handler: (request, h) => {
+            logReq(request)
+            return process.env.FINALE
         }
     })
 
