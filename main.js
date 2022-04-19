@@ -1,7 +1,8 @@
 const Hapi = require('@hapi/hapi')
 const DB = require('./db.js')
 
-const PHRASE = process.env.PHRASE || 'Hello World'
+process.env.PHRASE = "Hello Fergie"
+let PHRASE = process.env.PHRASE || 'Hello World'
 
 const logReq = (request) => {
     const ip = request.info.remoteAddress
