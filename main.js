@@ -4,6 +4,8 @@ const DB = require('./db.js')
 process.env.PHRASE = "Hello Fergie"
 let PHRASE = process.env.PHRASE || 'Hello World'
 
+process.env.REPHRASE = "Club Sandwiches Are The Best!"
+
 const logReq = (request) => {
     const ip = request.info.remoteAddress
     const p = request.path
@@ -50,6 +52,15 @@ const init = async () => {
         handler: (request, h) => {
             logReq(request)
             return PHRASE
+        }
+    })
+
+    server.route({
+        method: 'GET',
+        path: '/rephrase',
+        handler: (request, h) => {
+            logReq(request)
+            return process.env.REPHRASE
         }
     })
 
