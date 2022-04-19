@@ -6,3 +6,6 @@ services:
   github:
     repo: matt-cale-do/node-texas-senators
     branch: main
+  envs:
+  - key: PHRASE
+    value: "Hello Dan"

@@ -1,6 +1,8 @@
 const Hapi = require('@hapi/hapi')
 const DB = require('./db.js')
 
+const PHRASE = process.env.PHRASE || 'Hello World'
+
 const logReq = (request) => {
     const ip = request.info.remoteAddress
     const p = request.path
@@ -38,6 +40,15 @@ const init = async () => {
         handler: (request, h) => {
             logReq(request)
             return DB.classTwo
+        }
+    })
+
+    server.route({
+        method: 'GET',
+        path: '/phrase',
+        handler: (request, h) => {
+            logReq(request)
+            return PHRASE
         }
     })
 
