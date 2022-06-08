@@ -1,4 +1,4 @@
-name: node-texas-senators
+name: node-texas-senators-test
 services:
 - name: web
   build_command: npm i
@@ -9,3 +9,11 @@ services:
   envs:
   - key: PHRASE
     value: "Hello Dan"
+functions:
+- name: funcs
+  github:
+    branch: main
+    repo: matt-cale-do/node-texas-senators
+  source_dir: adder/
+  routes:
+  - path: /functions
